@@ -63,23 +63,23 @@ import Wind from '../Images/wind.png'
         <div  className='Top_bar'>
             <input type="text" className='cityInput' placeholder='Search'></input>
             <div className='search_icon' onkeydown={()=>search()} onClick={()=>search()}>
-                <img src={Search_icon} alt='Loading'></img>
+                <img src={Search_icon} alt=''></img>
             </div>
         </div>
         <div className='weather_image'>
-            <img src={wicon} alt='Loading'></img>
+            <img src={wicon} alt=''></img>
         </div>
         <div className='weather_temp'>55.89 °C</div>
         <div className='weather_location'>Gulbarga</div>
         <div className='data_container'>
             <div className='element'>
-                <img src={Humidity}></img>
+                <img src={Humidity} alt=''></img>
                 <div className='data'>
                     <div className='humidity'>48.08 %</div>
                 </div>
             </div>
             <div className='element'>
-                <img src={Wind}></img>
+                <img src={Wind} alt=''></img>
                 <div className='data'>
                     <div className='wind_speed'> 15.89 km/Hr</div>
                 </div>
