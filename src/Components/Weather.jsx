@@ -76,12 +76,14 @@ import Wind from '../Images/wind.png'
                 <img src={Humidity} alt=''></img>
                 <div className='data'>
                     <div className='humidity'>48.08 %</div>
+                    <div className='text'>Humidity</div>
                 </div>
             </div>
             <div className='element'>
                 <img src={Wind} alt=''></img>
                 <div className='data'>
                     <div className='wind_speed'> 15.89 km/Hr</div>
+                    <div className='text'>Wind Speed</div>
                 </div>
             </div>
         </div>        
